@@ -1,7 +1,8 @@
 function Top() {
   return (
-    <div>
-      <h1 className="text-lime-500 h-screen">TOP BERJALAN COY</h1>
+    <div className="h-screen bg-background">
+      <h1 className="text-text">TOP BERJALAN COY</h1>
+      <p className="text-primary">Nigga</p>
     </div>
   );
 }

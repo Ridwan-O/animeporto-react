@@ -12,3 +12,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+@layer base {
+  :root {
+    --text: #0c0718;
+    --background: #f8f6fd;
+    --primary: #6837c9;
+    --secondary: #ca8fe1;
+    --accent: #c761d4;
+  }
+  .dark {
+    --text: #ece7f8;
+    --background: #040208;
+    --primary: #6737c8;
+    --secondary: #591e71;
+    --accent: #8f2b9c;
+  }
+}

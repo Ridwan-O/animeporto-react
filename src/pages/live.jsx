@@ -1,7 +1,7 @@
 function Live() {
   return (
     <div>
-      <h1 className="text-indigo-500 h-screen">LIVE BERJALAN COY</h1>
+      <h1 className="h-screen text-indigo-500">LIVE BERJALAN COY</h1>
     </div>
   );
 }
